@@ -27,7 +27,7 @@ In comparison to the other "OOB Datasets Results" files in the directory, this f
 
 See the description under the *Clinical and Radiomic Features Predictive Accuracy* heading for details on file structure and the difference between "Testing Datasets Results" and "OOB Datasets Results" files.
 
-The positive label confidence results for each correlation cut-off (0, 0.1, 0.25, 0.4, 0.55, 0.7, 0.85, 1) are provided in the correspondingly named files. **Note:** The files for correlation cut-off = 1 are identical to those for clinical and radiomic features in the *Clinical and Radiomic Features Predictive Accuracy* directory, as a cut-off of 1 signifies the removal of no features.
+The positive label confidence results for each correlation cut-off (0.25, 0.4, 0.55, 0.7, 0.85, 1) are provided in the correspondingly named files. **Note:** The files for correlation cut-off = 1 are identical to those for clinical and radiomic features in the *Clinical and Radiomic Features Predictive Accuracy* directory, as a cut-off of 1 signifies the removal of no features. The files for correlation cut-off 0 and 0.1 are not needed as no additional features were removed after cut-off = 0.25.
 
 ### Effects of Multiple MR Scanner Models
 
